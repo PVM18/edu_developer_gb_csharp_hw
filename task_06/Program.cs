@@ -4,7 +4,7 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Введите натуральное число: ");
+Console.WriteLine("Введите целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 double nump = num % 2;
 if (nump == 0)
